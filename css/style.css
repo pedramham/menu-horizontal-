@@ -1,5 +1,47 @@
+/* START OF DEMO CSS - NOT NEEDED */
+@font-face {
+  font-family: 'WYekan';
+  src: url('font/yekan/WebYekan.eot');
+  src: url('font/yekan/WebYekan.eot?#iefix') format('embedded-opentype'),
+	   url('font/yekan/WebYekan.woff') format('woff'),
+	   url('font/yekan/WebYekan.ttf') format('truetype'),
+	   url('font/yekan/WebYekan.svg#WebYekan') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body { height: 100% } /* BODY BACKGROUND IMAGE DOESNT ALWAYS REACH THE BOTTOM OF THE BROWSER*/
+body {
+	background-color: rgb(100, 100, 100);
+	background-image: url(../image/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+}
+.white-background {
+	background-color: rgb(255, 255, 255);
+	color: rgb(51, 51, 51);
+	padding-top: 10px;
+	border-radius: 4px;
+}
+.title {
+	font-size: 3em;
+	font-weight: 700;
+	text-shadow: 0px 0px 5px rgb(51, 51, 51);
+	text-shadow: 0px 0px 5px rgba(51, 51, 51, 0.8);
+	text-align: center;
+}
+.font-tooltip{
+font-family: Wyekan;
+}
+#fullscreen {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+/* END OF DEMO CSS */
 
-    .animate {
+.animate {
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -96,7 +138,7 @@
 		border-bottom-width: 0px;
 	}
 	.navbar-minimal > .navbar-menu > li > a:hover {
-		background-color: rgb(158, 202, 59);
+		background-color: #cf2929;
 	}
 	.navbar-minimal > .navbar-menu > li > a > .glyphicon {
 		float: right;
@@ -162,4 +204,5 @@
 			left: 60px;
 			opacity: 1;
 		}
+
 	}

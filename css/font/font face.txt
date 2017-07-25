@@ -1,0 +1,16 @@
+@font-face {
+		font-family: "nassim";
+		src: url("bbc-nassim-regular.eot");
+		src: local("?"),
+			url("bbc-nassim-regular.woff") format("woff"),
+			url("bbc-nassim-regular.ttf") format("truetype"),
+			url("bbc-nassim-regular.svg#bbc-nassim-regular") format("svg");
+	}
+	@font-face {
+	font-family: "entezar";
+		src: url("entezar.eot");
+		src: local("?"),
+			url("entezar.woff") format("woff"),
+			url("entezar.ttf") format("truetype"),
+			url("entezar.svg#entezar") format("svg");
+	}
